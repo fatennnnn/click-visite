@@ -1,0 +1,336 @@
+                    /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+                    
+                    .commerce {
+                        font-family: 'Montserrat', sans-serif;
+                        margin: 0px 0px 0px 0px;
+                        border: 1px #707070;
+                    }
+                    
+                    .click-visite {
+                        background: url('./images/BACK-GROUND.png');
+                        background-repeat: no-repeat;
+                        background-size: 480px 760px;
+                        height: 768px;
+                    }
+                    
+                    .nav-click-visite {
+                        padding: 30px 25px 0px 25px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .nav-click {
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+                    
+                    .nav-commercant {
+                        color: #172B4D;
+                        background-color: #D1D111;
+                        border-radius: 5px 5px 5px 5px;
+                        border: #D1D111;
+                        padding: 5px 5px 5px 5px;
+                        font-size: 14px;
+                    }
+                    
+                    .decouverte-recherche {
+                        padding-top: 50px;
+                        display: flex;
+                        /* justify-content: center; */
+                        flex-direction: column;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    
+                    .titre-click {
+                        font-weight: bold;
+                        color: #FFFFFF;
+                        font-size: 54px;
+                        margin-bottom: 0px;
+                    }
+                    
+                    .p-click {
+                        color: #FFFFFF;
+                        font-weight: 500;
+                        font-size: 24px;
+                        margin: 15px 30px 10px 30px;
+                        line-height: 40px;
+                    }
+                    
+                    .lancer-recherche {
+                        display: flex;
+                        text-align: center;
+                        justify-content: space-between;
+                        padding-bottom: 20px;
+                        /* width: 100px; */
+                        height: auto;
+                        background-color: #FFFFFF;
+                        text-align: center;
+                        border-radius: 30px;
+                        border-color: #FFFFFF;
+                        height: 30px;
+                        margin: 0px 30px 0px 30px;
+                        max-width: 478px;
+                        min-width: 280px;
+                        margin-bottom: 50px;
+                        padding: 10px 10px 10px 10px;
+                    }
+                    
+                    .input-recherche {
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    
+                    .input-recherche input {
+                        border: none;
+                    }
+                    
+                    .btn-recherche {
+                        background-color: #004518;
+                        color: #FFFFFF;
+                        border-radius: 20px;
+                    }
+                    
+                    .demande-client {
+                        margin: 0px 30px -180px 30px;
+                        /* overflow: visible; */
+                        position: relative;
+                    }
+                    
+                    .demande-client h4 {
+                        color: #172B4D;
+                        font-size: 20px;
+                        font-weight: bolde;
+                        letter-spacing: -1.64px;
+                        /* width: 140px; */
+                    }
+                    
+                    .demande-client p {
+                        color: #172B4D;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    
+                    .demande-client-commerce {
+                        position: absolute;
+                    }
+                    
+                    .demande-cliente {
+                        background-color: #FFFFFF;
+                    }
+                    
+                    .demande-client div {
+                        margin: 25px 25px 25px 25px;
+                        padding: 20px 30px 20px 30px;
+                        width: 320 px;
+                        height: 250px;
+                        background-color: #FFFFFF;
+                        ;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        /* overflow: visible; */
+                        /* position: absolute; */
+                        box-shadow: 5px 5px 5px 5px #FAFAFA;
+                    }
+                    
+                    .demande-client a {
+                        text-decoration: none;
+                    }
+                    
+                    .titre {
+                        text-align: center;
+                        color: #172B4D;
+                        font-size: 32px;
+                        font-weight: 900;
+                        letter-spacing: -0.64px;
+                        padding-top: 50px;
+                    }
+                    
+                    .commerçant {
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px 10px 10px 10px;
+                        /* background-color: #FAFAFA; */
+                    }
+                    
+                    .commerçant-img {
+                        /* text-align: center; */
+                        width: 270px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                    .commerçant-titre {
+                        color: #172B4D;
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                    
+                    .commerçant-p {
+                        color: #172B4D;
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                    
+                    .commercant-lien {
+                        text-decoration: none;
+                    }
+                    
+                    .Listes-des-commerces {
+                        background-color: #FAFAFA;
+                        padding-top: 150px;
+                        padding-bottom: 50px;
+                    }
+                    
+                    .charger-plus {
+                        color: #172B4D;
+                        text-align: center;
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 500;
+                        letter-spacing: -0.32px;
+                        padding-top: 20px;
+                        width: 300px;
+                        margin: 0 auto;
+                    }
+                    
+                    @media (min-width: 480px) {
+                        .click-visite {
+                            background-size: 768px 800px;
+                        }
+                        .nav-click-visite {
+                            padding: 30px 40px 0px 40px;
+                        }
+                        .nav-click {
+                            font-size: 22px;
+                        }
+                        .nav-commercant {
+                            color: #172B4D;
+                            padding: 5px 5px 5px 5px;
+                            font-size: 16px;
+                            letter-spacing: -1.32px;
+                            text-align: center;
+                        }
+                        .titre-click {
+                            font-size: 74px;
+                        }
+                        .p-click {
+                            font-size: 34px;
+                            padding-bottom: 20px;
+                            padding: 0px 60px 30px 60px;
+                        }
+                        .lancer-recherche {
+                            /* margin: 0px 70px 0px 110px; */
+                            width: 390px;
+                            margin: 0 auto;
+                            margin-bottom: 50px;
+                            padding: 10px 10px 10px 10px;
+                        }
+                        .titre {
+                            font-size: 40px;
+                            letter-spacing: -0.64px;
+                            padding-top: 50px;
+                        }
+                        .demande-client div {
+                            margin: 30px 100px 40px 100px;
+                        }
+                        .commerçant-img {
+                            width: 440px;
+                            display: block;
+                        }
+                        .commerçant-titre {
+                            font-size: 24px;
+                        }
+                        .commerçant-p {
+                            font-size: 21px;
+                        }
+                    }
+                    
+                    @media (min-width: 768px) {
+                        .click-visite {
+                            background-size: 1024px 800px;
+                        }
+                        .nav-click-visite {
+                            padding: 30px 70px 0px 70px;
+                        }
+                        .nav-click {
+                            font-size: 22px;
+                        }
+                        .nav-commercant {
+                            color: #172B4D;
+                            padding: 5px 5px 5px 5px;
+                            font-size: 16px;
+                            letter-spacing: -1.32px;
+                            text-align: center;
+                        }
+                        .titre-click {
+                            font-size: 95px;
+                        }
+                        .p-click {
+                            font-size: 40px;
+                            padding: 0px 80px 30px 80px;
+                        }
+                        .titre {
+                            font-size: 50px;
+                            text-align: center;
+                        }
+                        .demande-client {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        .demande-client div {
+                            margin: 30px 30px 40px 30px;
+                            width: 200px
+                        }
+                        .Listes-des-commerces div {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            padding: 0px 10px 0px 10px;
+                        }
+                        .commerçant-img {
+                            width: 240px;
+                            display: block;
+                        }
+                        .commerçant {
+                            text-align: start;
+                            height: 320px;
+                            width: 250px;
+                        }
+                        .commerçant-titre {
+                            margin-bottom: 0px;
+                            padding-bottom: 0px;
+                        }
+                        .commerçant-p {
+                            margin-bottom: 0px;
+                            padding-bottom: 0px;
+                        }
+                    }
+                    
+                    @media (min-width: 1024px) {
+                        .click-visite {
+                            background-size: 1280px 800px;
+                        }
+                        .nav-click-visite {
+                            padding: 30px 90px 0px 90px;
+                        }
+                        .titre-click {
+                            font-size: 95px;
+                        }
+                        .p-click {
+                            font-size: 38px;
+                        }
+                    }
+                    
+                    @media (min-width: 1280px) {
+                        .click-visite {
+                            background-size: cover;
+                        }
+                    }
